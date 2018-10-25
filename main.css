@@ -1,0 +1,41 @@
+.page {
+	text-align: center;
+	padding: 200px 10px;
+}
+
+.img-circle {
+	display: inline-block;
+	position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #999;
+}
+
+.img-circle img {
+	width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -183px;
+    margin-left: -300px;
+}
+
+h1 {
+	font-family: 'Parisienne', cursive;
+	font-size: 36px;
+}
+
+p {
+	color: #444;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.email {
+	color: #666;
+	font-size: 14px;
+	text-transform: none;
+}
